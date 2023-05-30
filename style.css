@@ -79,7 +79,7 @@ nav ul li a:hover::after{
     width: 28%;
     height: 61%;
     position:absolute;
-    bottom: 136px;
+    bottom: 220px;
     right: 79px;
 }
 #bgPhoto img{
@@ -92,8 +92,8 @@ nav ul li a:hover::after{
 }
 #bgPhoto #bg{
     height: 85%;
-    left: -13px;
-    transform: rotate(-80deg);   
+    left: 0px;
+    transform: rotate(-83deg);   
 }
 #bgPhoto:hover #bg{
     bottom: 20px;
@@ -127,13 +127,14 @@ nav ul li a:hover::after{
     font-family:'Times New Roman', Times, serif;
 }
 .hire-btn {
-   margin-left:46%;
+    width: 100%;
+    margin-left:100%;
 }
 .header-text h1 span{
     font-family:'Times New Roman', Times, serif;
 }
 #H-socialmedia-icons{
-    margin-left: 10px
+    margin-left: 300px
 }
 #github{
     color: var(--secondary-color);
@@ -365,7 +366,7 @@ form input,form textarea{
     font-variant: small-caps;
 }
 /*-------------------------------css for small screen---------------------------*/
-@media (max-width:764px){
+@media only screen and (max-width:1020px){
     #toggle{
         position: fixed;
         top: 10px;
@@ -448,6 +449,13 @@ form input,form textarea{
     }
     .header-text h1{
         font-size: 20px;
+    }
+    .hire-btn {
+        margin-left:35%;
+        margin-top: 5%;
+     }
+     #H-socialmedia-icons{
+        margin-left: 10px
     }
     #bgPhoto{
         display: none;
