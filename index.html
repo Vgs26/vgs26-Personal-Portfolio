@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-----navbar------------------------------------->
+<div id="menu">  
+    <div id="toggle"></div> 
+    <div id="navbar">  
+        <nav id="header">    
+            <ul id="sidemenu">
+                <img src="images/moon.png" id="sun-moon">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">CodingProfiles</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#Contact">Contact</a></li> 
+                <img src="images/portfoliologo1.png" id="portfoliologo">
+            </ul>
+        </nav>
+    </div> 
+</div>
+<!---home--------------------------------------->
+<section>
+<div id="home">
+    <div>
+        <img src="images/portfoliologo1.png" id="logo-smallscreen">
+    </div>
+    <div class="header-text" >
+        <p>Developer</p>
+        <h1>Hi, I'm <span>V Gopi Singh</span> <br> From Hyderabad</h1>
+        <p>I am a enthusiastic and quick learner with a fun, outgoing personality.</p>
+        <div class="social-icons" id="H-socialmedia-icons">
+            <a style="color:  rgb(3, 183, 255);" href="https://www.linkedin.com/in/gopiv26/"><i class="fab fa-linkedin" id="linkedin"></i></a>
+            <a style="color: rgb(237, 9, 115);" href="https://www.instagram.com/mr_gopi_______/"><i class="fab fa-instagram" id="insta"></i></a>
+            <a style="color: rgb(9, 93, 237);" href="https://www.facebook.com/profile.php?id=100007226057597"><i class="fab fa-facebook" id="facebook"></i></a>
+            <a href="https://github.com/Vgs26"><i class="fab fa-github" id="github"></i></a>
+        </div>
+        <div class="hire-btn">
+            <a href="hireMe.html">
+                <button type="submit" class="submit-btn" >Hire Me</button>
+            </a>
+        </div>
+    </div>
+    <div id="bgPhoto">
+        <img src="images/bg1.png" id="bg">
+        <img src="images/mypic1.png" id="mypic">
+    </div>
+</div>
+</section>
+<!----about--------------------------------------->
+<section>
+<div id="About">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/aboutpage-gif.gif" class="myimg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title"><span>About Me</span></h1>
+            <p>A Self-motivated, highly passionate, and hardworking person looking for an opportunity to work in an organization 
+            to upgrade my skills and contribute for the growth of the organization.<br>
+             I am an enthusiastic and quick learner with a fun, outgoing personality.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Datastructures and Alogorithms</span><br>Intermediate at DSA</li>
+                    <li><span>Programming Languages</span><br>C++,Java(basic),Python(basic)</li>
+                    <li><span>Web technologies</span><br>HTML5,CSS3,JavaScript(basic)</li>
+                    <li><span>Data Base</span><br>MySQL</li>
+                    <li><span>Operating System</span><br>Windows</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+                <ul>
+                    <li><span>2023 - Present</span><br>Android Malware Detection Using Machine Learning Techniques.</li>
+                    <li><span>feb 2023 - mar 2023</span><br>A Front-end Responsive Website that describes information about myself.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021 - 2024</span><br>Btech | CMR Technical Campus,Hyderabad<br>Computer Science and Engineering.</li>
+                    <li><span>2017 - 2020</span><br>Diploma | Govt. Polytechnic,Masabtank.</li>
+                    <li><span>2007 - 2017</span><br>Secondary | Srinivasa High School,Hyderabad.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--------------------------portfolioooo-------------->
+<section>
+    <div id="Portfolio">
+        <div class="pf">
+            <h1 class="codingprofile">Coding <span>Profiles </span><i class = "fa fa-code"></i></h1>
+            <p > I solved <span>1000+ </span> DS and Algo Questions across platforms.</p>
+            <p >Solved <span>200+</span>  problems in Leet Code.</p>
+        </div>
+            <div class="portfolio-list">
+                <ul>
+                    <li><a href="https://leetcode.com/vgs26/" target="_blank" id = "profilelink"><img src="images/leetcodelogo.png" alt="" id = "pro"> Leet <span id = "titles">Code</span></a></li> <br>
+                    <li><a href="https://www.codechef.com/users/vgs26"target="_blank" id = "profilelink"><img src="images/codechef.png" alt="" id="pro"> Code <span id = "titles">Chef</span></a></li> <br>
+                    <li><a href="https://www.hackerrank.com/contests/smart-interviews/challenges"target="_blank" id = "profilelink"><img src="images/HackerRank.png" alt="" id = "pro"> Hacker <span id="titles">Rank </span></a></li><br>
+                    <li><a href="https://codeforces.com/profile/vgopisingh26"target="_blank" id = "profilelink"><img src="images/codeforce.png" alt="" id="pro"> Code <span id = "titles">Forces</span></a></li>
+                </ul>
+        </div>
+    </div>
+</section>
+<!----services----------------------------------------------------------->
+<section>
+<div id="services">
+        <h1 class="sub-title"><span>My Services</span></h1>
+        <div  class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web site design using HTML,CSS,JavaScript technologies </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Fresher</h2>
+                <p>Looking for an SDE role  </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+</div>
+</section>
+<!-------------------Contact me----------------->
+<section>
+<div id="Contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title"><span>Contact Me</span></h1>
+            <p id="mail"><i class="fas fa-envelope" style="color: rgb(237, 9, 9)"></i>vankudavathgopi2001@gmail.com</p>
+            <p id="phone"><i class="fas fa-phone-square" aria-hidden="true" style="color: rgb(6, 234, 6)"></i>+91-9014717284</p>
+            <p><i class="fas fa-map-marker-alt" id="location-icon"></i>Hyderabad, India</p>
+            <div class="social-icons">
+                <a style="color:  rgb(3, 183, 255);" href="https://www.linkedin.com/in/gopiv26/"><i class="fab fa-linkedin" id="linkedin"></i></a>
+                <a style="color: rgb(237, 9, 115);" href="https://www.instagram.com/mr_gopi_______/"><i class="fab fa-instagram" id="insta"></i></a>
+                <a style="color: rgb(9, 93, 237);" href="https://www.facebook.com/profile.php?id=100007226057597"><i class="fab fa-facebook" id="facebook"></i></a>
+                <a href="https://github.com/Vgs26"><i class="fab fa-github" id="github"></i></a>
+            </div>
+            <div class="cv-btn">
+                <button class="submit-btn"><a href="images/myresume.pdf" download class="btn"><i class="fa-solid fa-cloud-arrow-down"></i>Download CV</a></button>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form action="https://formspree.io/f/xdovpgov" method="POST" onsubmit="this.submit(); this.reset(); return false;">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <input type="text" name="Phone No" placeholder="Phone no."required>
+                <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+<footer>
+    <div class="copyright">
+        <p>&copy;  Copyright 2023-vgopisingh. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="javascript.js">
+</script>
+
+</body>
+</html>
